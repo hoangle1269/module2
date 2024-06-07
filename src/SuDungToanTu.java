@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class suDungToanTu {
+public class SuDungToanTu {
     public static void main(String[] args) {
         float width;
         float height;

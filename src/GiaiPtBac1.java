@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class giaiPtBac1 {
+public class GiaiPtBac1 {
     public static void main(String[] args) {
         //giai phuong trinh ax + b = 0
 

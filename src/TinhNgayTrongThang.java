@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class tinhNgayTrongThang {
+public class TinhNgayTrongThang {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
