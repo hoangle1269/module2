@@ -6,7 +6,7 @@ public class Geomertry {
         int choice = -1;
 
 
-        while (choice != 0) {
+        while (true) {
             Scanner input = new Scanner(System.in);
             System.out.println("Menu");
             System.out.println("1. Draw the triangle");
