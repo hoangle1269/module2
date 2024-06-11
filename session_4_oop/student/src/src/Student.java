@@ -1,11 +1,14 @@
-class Student {
-    String id;
-    String name;
-    String email;
-    int mobile;
-    double GPA;
+package src;
 
-    private Student(String id, String name, String email, int mobile, double GPA) {
+public class Student {
+    // khai bao thuoc tinh
+    protected String id;
+    protected String name;
+    protected String email;
+    protected String mobile;
+    protected double GPA;
+
+    public Student(String id, String name, String email, String mobile, double GPA) {
         this.id = id;
         this.name = name;
         this.email = email;
@@ -21,11 +24,11 @@ class Student {
         this.GPA = GPA;
     }
 
-    public int getMobile() {
+    public String getMobile() {
         return mobile;
     }
 
-    public void setMobile(int mobile) {
+    public void setMobile(String mobile) {
         this.mobile = mobile;
     }
 
@@ -53,5 +56,14 @@ class Student {
         this.id = id;
     }
 
-
+    @Override
+    public String toString() {
+        return "Student{" +
+                "id='" + id + '\'' +
+                ", name='" + name + '\'' +
+                ", email='" + email + '\'' +
+                ", GPA=" + GPA +
+                ", mobile='" + mobile + '\'' +
+                '}';
+    }
 }

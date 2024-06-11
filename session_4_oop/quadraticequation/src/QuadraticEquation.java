@@ -36,7 +36,7 @@ public class QuadraticEquation {
     }
 
     public double getDiscriminant() {
-        delta = (b*b - 4*a*c);
+        delta = (b * b - 4 * a * c);
         return delta;
     }
 
