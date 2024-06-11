@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/array/Array.iml" filepath="$PROJECT_DIR$/array/Array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/session_3_array/Array.iml" filepath="$PROJECT_DIR$/session_3_array/Array.iml" />
       <module fileurl="file://$PROJECT_DIR$/Module2.1.iml" filepath="$PROJECT_DIR$/Module2.1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/session_4_oop/quadraticequation/quadraticequation.iml" filepath="$PROJECT_DIR$/session_4_oop/quadraticequation/quadraticequation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/session_4_oop/session_3_OOP.iml" filepath="$PROJECT_DIR$/session_4_oop/session_3_OOP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/session_4_oop/student/student.iml" filepath="$PROJECT_DIR$/session_4_oop/student/student.iml" />
     </modules>
   </component>
 </project>
