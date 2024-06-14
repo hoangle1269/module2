@@ -1,6 +1,6 @@
 package entity;
 
-public class Rectangle extends GeometricObject {
+public class Rectangle extends GeometricObject implements Resizable, Colorable {
     protected double width;
     protected double length;
 
@@ -39,12 +39,23 @@ public class Rectangle extends GeometricObject {
         this.length = length;
     }
 
-    protected double getArea() {
+    public double getArea() {
         return width * length;
     }
 
     protected double getPerimeter() {
         return 2 * width * length;
+    }
+
+    @Override
+    public void resize(double percent) {
+        width += width * percent / 100;
+        length += length * percent / 100;
+    }
+
+    @Override
+    public void howToColor() {
+        System.out.println("Color all four sides");
     }
 
     @Override

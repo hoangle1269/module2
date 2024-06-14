@@ -43,6 +43,10 @@ public class GeometricObject {
         this.dateCreated = dateCreated;
     }
 
+    public double getArea() {
+        return 0;
+    }
+
     @Override
     public String toString() {
         return "A shape with color of " + this.color + " and " + (this.filled ? "filled" : "not filled");

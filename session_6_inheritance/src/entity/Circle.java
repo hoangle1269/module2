@@ -1,6 +1,6 @@
 package entity;
 
-public class Circle extends GeometricObject {
+public class Circle extends GeometricObject implements Resizable, Colorable {
     public double radius;
 
     public Circle() {
@@ -26,7 +26,7 @@ public class Circle extends GeometricObject {
         this.radius = radius;
     }
 
-    protected double getArea() {
+    public double getArea() {
         return 2 * Math.PI * radius;
     }
 
@@ -43,7 +43,19 @@ public class Circle extends GeometricObject {
     }
 
     @Override
+    public void resize(double percent) {
+        radius += radius * percent / 100;
+    }
+
+    @Override
+    public void howToColor() {
+        System.out.println("Color all four sides");
+    }
+
+    @Override
     public String toString() {
         return "A Circle with radius = " + this.radius + " which is a subclass of " + super.toString();
     }
+
+
 }

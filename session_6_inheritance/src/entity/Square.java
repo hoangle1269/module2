@@ -1,6 +1,6 @@
 package entity;
 
-public class Square extends Rectangle {
+public class Square extends Rectangle implements Resizable, Colorable {
 
     public Square() {
         super(1.0, 1.0);
@@ -46,6 +46,11 @@ public class Square extends Rectangle {
     public double getPerimeter() {
         double side = getWidth(); // or getLength(), both are the same
         return 4 * side;
+    }
+
+    @Override
+    public void howToColor() {
+        System.out.println("Color all four sides");
     }
 
     @Override
