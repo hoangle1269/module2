@@ -1,37 +1,52 @@
 package src;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class StaffManagement implements StaffManagementInterface {
-    private List<Staff> staffList;
+    private Staff[] staffList;
+    private int size;
 
     public StaffManagement() {
-        this.staffList = new ArrayList<>();
+        this.staffList = new Staff[10];
+        this.size = 0;
     }
 
     @Override
     public void addStaff(Staff staff) {
-        staffList.add(staff);
+        if (size == staffList.length) {
+            resizeArray();
+        }
+        staffList[size++] = staff;
+    }
+
+    private void resizeArray() {
+        Staff[] newArray = new Staff[staffList.length * 2];
+        System.arraycopy(staffList, 0, newArray, 0, staffList.length);
+        staffList = newArray;
     }
 
     @Override
     public void removeStaff(int id) {
-        staffList.removeIf(staff -> staff.getId() == id);
+        for (int i = 0; i < size; i++) {
+            if (staffList[i].getId() == id) {
+                staffList[i] = staffList[size - 1];
+                staffList[size - 1] = null;
+                size--;
+                break;
+            }
+        }
     }
 
     @Override
     public void updateStaff(Staff updatedStaff) {
-        for (Staff staff : staffList) {
-            if (staff.getId() == updatedStaff.getId()) {
-                staff.setName(updatedStaff.getName());
-                staff.setPhone(updatedStaff.getPhone());
-                staff.setPosition(updatedStaff.getPosition());
-                if (staff instanceof FactoryStaff) {
-                    ((FactoryStaff) staff).setFactoryId(((FactoryStaff) updatedStaff).getFactoryId());
-                    ((FactoryStaff) staff).setType(((FactoryStaff) updatedStaff).getType());
-                } else if (staff instanceof DeliveryStaff) {
-                    ((DeliveryStaff) staff).setVehicleType(((DeliveryStaff) updatedStaff).getVehicleType());
+        for (int i = 0; i < size; i++) {
+            if (staffList[i].getId() == updatedStaff.getId()) {
+                staffList[i].setName(updatedStaff.getName());
+                staffList[i].setPhone(updatedStaff.getPhone());
+                staffList[i].setPosition(updatedStaff.getPosition());
+                if (staffList[i] instanceof FactoryStaff) {
+                    ((FactoryStaff) staffList[i]).setFactoryId(((FactoryStaff) updatedStaff).getFactoryId());
+                    ((FactoryStaff) staffList[i]).setType(((FactoryStaff) updatedStaff).getType());
+                } else if (staffList[i] instanceof DeliveryStaff) {
+                    ((DeliveryStaff) staffList[i]).setVehicleType(((DeliveryStaff) updatedStaff).getVehicleType());
                 }
                 break;
             }
@@ -40,10 +55,21 @@ public class StaffManagement implements StaffManagementInterface {
 
     @Override
     public void displayStaffCount() {
-        System.out.println("Total number of staff: " + staffList.size());
-        long officeStaffCount = staffList.stream().filter(staff -> staff instanceof OfficeStaff).count();
-        long factoryStaffCount = staffList.stream().filter(staff -> staff instanceof FactoryStaff).count();
-        long deliveryStaffCount = staffList.stream().filter(staff -> staff instanceof DeliveryStaff).count();
+        int officeStaffCount = 0;
+        int factoryStaffCount = 0;
+        int deliveryStaffCount = 0;
+
+        for (int i = 0; i < size; i++) {
+            if (staffList[i] instanceof OfficeStaff) {
+                officeStaffCount++;
+            } else if (staffList[i] instanceof FactoryStaff) {
+                factoryStaffCount++;
+            } else if (staffList[i] instanceof DeliveryStaff) {
+                deliveryStaffCount++;
+            }
+        }
+
+        System.out.println("Total number of staff: " + size);
         System.out.println("Office Staff: " + officeStaffCount);
         System.out.println("Factory Staff: " + factoryStaffCount);
         System.out.println("Delivery Staff: " + deliveryStaffCount);
@@ -51,19 +77,20 @@ public class StaffManagement implements StaffManagementInterface {
 
     @Override
     public void displayStaffByType(String type) {
-        staffList.stream().filter(staff -> {
-            if ("Office".equalsIgnoreCase(type)) {
-                return staff instanceof OfficeStaff;
-            } else if ("Factory".equalsIgnoreCase(type)) {
-                return staff instanceof FactoryStaff;
-            } else if ("Delivery".equalsIgnoreCase(type)) {
-                return staff instanceof DeliveryStaff;
+        for (int i = 0; i < size; i++) {
+            if ("Office".equalsIgnoreCase(type) && staffList[i] instanceof OfficeStaff) {
+                System.out.println(staffList[i]);
+            } else if ("Factory".equalsIgnoreCase(type) && staffList[i] instanceof FactoryStaff) {
+                System.out.println(staffList[i]);
+            } else if ("Delivery".equalsIgnoreCase(type) && staffList[i] instanceof DeliveryStaff) {
+                System.out.println(staffList[i]);
             }
-            return false;
-        }).forEach(System.out::println);
+        }
     }
 
-    public List<Staff> getStaffList() {
-        return staffList;
+    public Staff[] getStaffList() {
+        Staff[] currentStaff = new Staff[size];
+        System.arraycopy(staffList, 0, currentStaff, 0, size);
+        return currentStaff;
     }
 }
