@@ -2,5 +2,8 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/session_8_clean_code/FizzBuzz/FizzBuzz" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/session_8_clean_code/KataTennisGame/apj-tennis-game" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/session_9_test/apj-2023-junit-calculator" vcs="Git" />
   </component>
 </project>

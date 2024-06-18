@@ -4,23 +4,32 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/session_7_abstract/FloraAndFauna/Animal.iml" filepath="$PROJECT_DIR$/session_7_abstract/FloraAndFauna/Animal.iml" />
       <module fileurl="file://$PROJECT_DIR$/session_3_array/Array.iml" filepath="$PROJECT_DIR$/session_3_array/Array.iml" />
+      <module fileurl="file://$PROJECT_DIR$/session_9_test/BuzzFizz/BuzzFizz.iml" filepath="$PROJECT_DIR$/session_9_test/BuzzFizz/BuzzFizz.iml" />
       <module fileurl="file://$PROJECT_DIR$/session_5_access_modifier/Circle/Circle.iml" filepath="$PROJECT_DIR$/session_5_access_modifier/Circle/Circle.iml" />
       <module fileurl="file://$PROJECT_DIR$/session_7_abstract/EmployeeManagementApp/EmployeeManager.iml" filepath="$PROJECT_DIR$/session_7_abstract/EmployeeManagementApp/EmployeeManager.iml" />
       <module fileurl="file://$PROJECT_DIR$/session_4_oop/Fan/Fan.iml" filepath="$PROJECT_DIR$/session_4_oop/Fan/Fan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/session_8_clean_code/FizzBuzz/FizzBuzz.iml" filepath="$PROJECT_DIR$/session_8_clean_code/FizzBuzz/FizzBuzz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/session_8_clean_code/KataTennisGame/KataTennisGame.iml" filepath="$PROJECT_DIR$/session_8_clean_code/KataTennisGame/KataTennisGame.iml" />
       <module fileurl="file://$PROJECT_DIR$/Module2.1.iml" filepath="$PROJECT_DIR$/Module2.1.iml" />
       <module fileurl="file://$PROJECT_DIR$/session_6_inheritance/Point/Point.iml" filepath="$PROJECT_DIR$/session_6_inheritance/Point/Point.iml" />
       <module fileurl="file://$PROJECT_DIR$/session_6_inheritance/Point23D/Point23D.iml" filepath="$PROJECT_DIR$/session_6_inheritance/Point23D/Point23D.iml" />
+      <module fileurl="file://$PROJECT_DIR$/session_8_clean_code/Refactoring/Refactoring.iml" filepath="$PROJECT_DIR$/session_8_clean_code/Refactoring/Refactoring.iml" />
       <module fileurl="file://$PROJECT_DIR$/session_5_access_modifier/StaticMethod/StaticMethod.iml" filepath="$PROJECT_DIR$/session_5_access_modifier/StaticMethod/StaticMethod.iml" />
       <module fileurl="file://$PROJECT_DIR$/session_5_access_modifier/StaticProperty/StaticProperty.iml" filepath="$PROJECT_DIR$/session_5_access_modifier/StaticProperty/StaticProperty.iml" />
       <module fileurl="file://$PROJECT_DIR$/session_4_oop/stopwatch/StopWatch.iml" filepath="$PROJECT_DIR$/session_4_oop/stopwatch/StopWatch.iml" />
       <module fileurl="file://$PROJECT_DIR$/session_5_access_modifier/Student/Student.iml" filepath="$PROJECT_DIR$/session_5_access_modifier/Student/Student.iml" />
+      <module fileurl="file://$PROJECT_DIR$/session_9_test/absolute_number_calculator/absolute_number_calculator.iml" filepath="$PROJECT_DIR$/session_9_test/absolute_number_calculator/absolute_number_calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/session_9_test/next_day_calculator/next_day_calculator.iml" filepath="$PROJECT_DIR$/session_9_test/next_day_calculator/next_day_calculator.iml" />
       <module fileurl="file://$PROJECT_DIR$/session_4_oop/quadraticequation/quadraticequation.iml" filepath="$PROJECT_DIR$/session_4_oop/quadraticequation/quadraticequation.iml" />
       <module fileurl="file://$PROJECT_DIR$/session_4_oop/session_3_OOP.iml" filepath="$PROJECT_DIR$/session_4_oop/session_3_OOP.iml" />
       <module fileurl="file://$PROJECT_DIR$/session_5_access_modifier/session_5_access_modifier.iml" filepath="$PROJECT_DIR$/session_5_access_modifier/session_5_access_modifier.iml" />
       <module fileurl="file://$PROJECT_DIR$/session_7_abstract/session_6_abstract.iml" filepath="$PROJECT_DIR$/session_7_abstract/session_6_abstract.iml" />
       <module fileurl="file://$PROJECT_DIR$/session_6_inheritance/session_6_inheritance.iml" filepath="$PROJECT_DIR$/session_6_inheritance/session_6_inheritance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/session_8_clean_code/session_8_clean_code.iml" filepath="$PROJECT_DIR$/session_8_clean_code/session_8_clean_code.iml" />
+      <module fileurl="file://$PROJECT_DIR$/session_9_test/session_9_test.iml" filepath="$PROJECT_DIR$/session_9_test/session_9_test.iml" />
       <module fileurl="file://$PROJECT_DIR$/session_4_oop/student/student.iml" filepath="$PROJECT_DIR$/session_4_oop/student/student.iml" />
       <module fileurl="file://$PROJECT_DIR$/session_4_oop/student2/student2.iml" filepath="$PROJECT_DIR$/session_4_oop/student2/student2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/session_9_test/triangle_classifier/triangle_classifier.iml" filepath="$PROJECT_DIR$/session_9_test/triangle_classifier/triangle_classifier.iml" />
     </modules>
   </component>
 </project>
