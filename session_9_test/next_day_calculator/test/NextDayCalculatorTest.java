@@ -32,4 +32,11 @@ public class NextDayCalculatorTest {
     public void testGetNextDay_31122018() {
         assertEquals("1/1/2019", NextDayCalculator.getNextDay(31, 12, 2018));
     }
+
+    @Test
+    public void testGetNextDay_15122018() {
+        assertEquals("16/12/2018", NextDayCalculator.getNextDay(15, 12, 2018));
+    }
+
+
 }
