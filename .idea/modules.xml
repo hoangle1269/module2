@@ -14,6 +14,7 @@
       <module fileurl="file://$PROJECT_DIR$/Module2.1.iml" filepath="$PROJECT_DIR$/Module2.1.iml" />
       <module fileurl="file://$PROJECT_DIR$/session_6_inheritance/Point/Point.iml" filepath="$PROJECT_DIR$/session_6_inheritance/Point/Point.iml" />
       <module fileurl="file://$PROJECT_DIR$/session_6_inheritance/Point23D/Point23D.iml" filepath="$PROJECT_DIR$/session_6_inheritance/Point23D/Point23D.iml" />
+      <module fileurl="file://$PROJECT_DIR$/session_12_tree/ProductManagement/ProductManagement.iml" filepath="$PROJECT_DIR$/session_12_tree/ProductManagement/ProductManagement.iml" />
       <module fileurl="file://$PROJECT_DIR$/session_8_clean_code/Refactoring/Refactoring.iml" filepath="$PROJECT_DIR$/session_8_clean_code/Refactoring/Refactoring.iml" />
       <module fileurl="file://$PROJECT_DIR$/session_10_DSA_danhsach/SimpleLinkedList/SimpleLinkedList.iml" filepath="$PROJECT_DIR$/session_10_DSA_danhsach/SimpleLinkedList/SimpleLinkedList.iml" />
       <module fileurl="file://$PROJECT_DIR$/session_5_access_modifier/StaticMethod/StaticMethod.iml" filepath="$PROJECT_DIR$/session_5_access_modifier/StaticMethod/StaticMethod.iml" />
@@ -24,6 +25,8 @@
       <module fileurl="file://$PROJECT_DIR$/session_9_test/next_day_calculator/next_day_calculator.iml" filepath="$PROJECT_DIR$/session_9_test/next_day_calculator/next_day_calculator.iml" />
       <module fileurl="file://$PROJECT_DIR$/session_4_oop/quadraticequation/quadraticequation.iml" filepath="$PROJECT_DIR$/session_4_oop/quadraticequation/quadraticequation.iml" />
       <module fileurl="file://$PROJECT_DIR$/session_10_DSA_danhsach/session_10_DSA_danhsach.iml" filepath="$PROJECT_DIR$/session_10_DSA_danhsach/session_10_DSA_danhsach.iml" />
+      <module fileurl="file://$PROJECT_DIR$/session_11_stack_queue/session_11_stack_queue.iml" filepath="$PROJECT_DIR$/session_11_stack_queue/session_11_stack_queue.iml" />
+      <module fileurl="file://$PROJECT_DIR$/session_12_tree/session_12_tree.iml" filepath="$PROJECT_DIR$/session_12_tree/session_12_tree.iml" />
       <module fileurl="file://$PROJECT_DIR$/session_4_oop/session_3_OOP.iml" filepath="$PROJECT_DIR$/session_4_oop/session_3_OOP.iml" />
       <module fileurl="file://$PROJECT_DIR$/session_5_access_modifier/session_5_access_modifier.iml" filepath="$PROJECT_DIR$/session_5_access_modifier/session_5_access_modifier.iml" />
       <module fileurl="file://$PROJECT_DIR$/session_7_abstract/session_6_abstract.iml" filepath="$PROJECT_DIR$/session_7_abstract/session_6_abstract.iml" />
