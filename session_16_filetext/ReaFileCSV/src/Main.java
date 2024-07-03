@@ -14,9 +14,7 @@ public class Main {
                 System.out.println("4. Update country");
                 System.out.println("5. Exit");
                 int choice = Integer.parseInt(scanner.nextLine());
-//                if (choice == 5) { // gây khó hiểu
-//                    break;
-//                }
+
                 switch (choice) {
                     case 1:
                         CountryInfoManager.createCountry();

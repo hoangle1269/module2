@@ -3,10 +3,12 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        try {
-            Scanner scanner = new Scanner(System.in);
 
-            while (true) {
+        while (true) {
+            try {
+                Scanner scanner = new Scanner(System.in);
+
+
                 System.out.println("----Enter choice number----");
                 System.out.println("1: Add student");
                 System.out.println("2: Show list students");
@@ -15,7 +17,7 @@ public class Main {
                 System.out.println("5: Import students from file: ");
                 System.out.println("6: Export students to file: ");
                 System.out.println("10: Exit");
-                int choice = Integer.parseInt(scanner.nextLine());
+                int choice = scanner.nextInt();
 
                 switch (choice) {
                     case 1:
@@ -43,12 +45,11 @@ public class Main {
                         System.out.println("Invalid number! Input again!");
 
                 }
+            } catch (NumberFormatException e) {
+                System.out.println("Invalid number!");
+            } catch (Exception e) {
+                System.out.println(e.getMessage());
             }
-
-        } catch (NumberFormatException e) {
-            System.out.println("Invalid number! Input again!");
-        } catch (Exception e) {
-            System.out.println(e.getMessage());
         }
     }
 }

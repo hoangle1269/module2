@@ -16,16 +16,18 @@ public class StudentManager {
         BufferedWriter bufferedWriter = new BufferedWriter(fileWriter);
         System.out.println("----------Enter student information------");
         System.out.println("Enter id: ");
-        String id = scanner.nextLine();
+        int id = Integer.parseInt(scanner.nextLine());
         System.out.println("Enter name: ");
         String name = scanner.nextLine();
+        System.out.println("Enter age: ");
+        int age = Integer.parseInt(scanner.nextLine());
 
-        Student s = new Student(Integer.parseInt(id), name);
-        String dataStudent = s.getId() + "," + s.getName();
+        Student s = new Student(id, name, age);
+        String dataStudent = s.getId() + ", " + s.getName() + ", " + s.getAge();
         // luu vao file
         bufferedWriter.write(dataStudent);
         bufferedWriter.newLine();
-        // dong file lai va du data luu lai
+        // dong file va luu data
         bufferedWriter.close();
     }
 
@@ -35,11 +37,12 @@ public class StudentManager {
         String line = "";
         while ((line = bufferedReader.readLine()) != null) {
             // chuyen String ve array su dung split()
-            String[] data = line.split(",");
+            String[] data = line.split(", ");
             int idStudent = Integer.parseInt(data[0]);
             String nameStudent = data[1];
-            Student s1 = new Student(idStudent, nameStudent);
-            System.out.println(s1);
+            int ageStudent = Integer.parseInt(data[2]);
+            Student student = new Student(idStudent, nameStudent, ageStudent);
+            System.out.println(student);
         }
         bufferedReader.close();
     }
@@ -50,19 +53,7 @@ public class StudentManager {
         int idStudentDelete = Integer.parseInt(scanner.nextLine());
         System.out.println(idStudentDelete);
         // create a list students from file
-        List<Student> students = new ArrayList<Student>();
-        // read data from file
-        FileReader fileReader = new FileReader(myFile);
-        BufferedReader bufferedReader = new BufferedReader(fileReader);
-
-        String line = "";
-        while ((line = bufferedReader.readLine()) != null) {
-            String[] text = line.split(",");
-            int id = Integer.parseInt(text[0]);
-            String name = text[1];
-            Student student = new Student(id, name);
-            students.add(student);
-        }
+        List<Student> students = getStudentList();
         Student studentDelete = null;
         // delete student trong list students
         for (Student item : students) {
@@ -87,23 +78,33 @@ public class StudentManager {
         bufferedWriter.close();
     }
 
+    private static List<Student> getStudentList() throws IOException {
+        List<Student> students = new ArrayList<Student>();
+        // read data from file
+        FileReader fileReader = new FileReader(myFile);
+        BufferedReader bufferedReader = new BufferedReader(fileReader);
+
+        String line = "";
+        while ((line = bufferedReader.readLine()) != null) {
+            String[] text = line.split(",");
+            int id = Integer.parseInt(text[0]);
+            String name = text[1];
+            int age = Integer.parseInt(text[2]);
+            Student student = new Student(id, name, age);
+            students.add(student);
+        }
+        return students;
+    }
+
     public static void updateStudent() throws Exception {
 
         System.out.println("Enter id of student to update: ");
         int idStudentUpdate = Integer.parseInt(scanner.nextLine());
 
-        List<Student> students = new ArrayList<>();
+        List<Student> students = getStudentList();
         FileReader fileReader = new FileReader(myFile);
         BufferedReader bufferedReader = new BufferedReader(fileReader);
         String line;
-        while ((line = bufferedReader.readLine()) != null) {
-            String[] text = line.split(",");
-            int id = Integer.parseInt(text[0]);
-            String name = text[1];
-            Student student = new Student(id, name);
-            students.add(student);
-        }
-        bufferedReader.close();
 
         Student studentUpdate = null;
         for (Student item : students) {
@@ -119,7 +120,8 @@ public class StudentManager {
 
         System.out.println("Enter new name: ");
         String newName = scanner.nextLine();
-        studentUpdate = new Student(idStudentUpdate, newName);
+        int newAge = scanner.nextInt();
+        studentUpdate = new Student(idStudentUpdate, newName, newAge);
 
         BufferedWriter bufferedWriter = new BufferedWriter(new FileWriter(myFile));
         for (Student student : students) {
