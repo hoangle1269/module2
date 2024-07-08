@@ -26,7 +26,7 @@ public class Main {
             // Check date
             Pattern patternDate = Pattern.compile("^(0[1-9]|[12][0-9]|3[01])(-|/)(0[1-9]|1[0-2])(-|/)(19|20)\\d{2}$");
 
-            Matcher matcherDate = patternDate.matcher("stringDate");
+            Matcher matcherDate = patternDate.matcher("00/02/2000");
             boolean matchDate = matcherDate.matches();
 
             // Check hour
@@ -36,9 +36,9 @@ public class Main {
             boolean matchHour = matcherHour.matches();
 
             // Check visa number
-            Pattern patternVisa = Pattern.compile("^\\d{4}(-| )\\d{4}(-| )\\d{4}(-| )\\d{4}$");
+            Pattern patternVisa = Pattern.compile("^(\\d{4}(-| )){3}\\d{4}$");
 
-            Matcher matcherVisa = patternVisa.matcher("visaNumber");
+            Matcher matcherVisa = patternVisa.matcher("1234-1234-1234-1234");
             boolean matchVisa = matcherVisa.matches();
 
             System.out.println("Email valid: " + matchEmail);

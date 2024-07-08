@@ -25,6 +25,7 @@
       <module fileurl="file://$PROJECT_DIR$/session_5_access_modifier/Student/Student.iml" filepath="$PROJECT_DIR$/session_5_access_modifier/Student/Student.iml" />
       <module fileurl="file://$PROJECT_DIR$/session_16_filetext/SumInTextFile/SumInTextFile.iml" filepath="$PROJECT_DIR$/session_16_filetext/SumInTextFile/SumInTextFile.iml" />
       <module fileurl="file://$PROJECT_DIR$/session_9_test/absolute_number_calculator/absolute_number_calculator.iml" filepath="$PROJECT_DIR$/session_9_test/absolute_number_calculator/absolute_number_calculator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/case_study/case_study.iml" filepath="$PROJECT_DIR$/case_study/case_study.iml" />
       <module fileurl="file://$PROJECT_DIR$/session_9_test/next_day_calculator/next_day_calculator.iml" filepath="$PROJECT_DIR$/session_9_test/next_day_calculator/next_day_calculator.iml" />
       <module fileurl="file://$PROJECT_DIR$/session_4_oop/quadraticequation/quadraticequation.iml" filepath="$PROJECT_DIR$/session_4_oop/quadraticequation/quadraticequation.iml" />
       <module fileurl="file://$PROJECT_DIR$/session_10_DSA_danhsach/session_10_DSA_danhsach.iml" filepath="$PROJECT_DIR$/session_10_DSA_danhsach/session_10_DSA_danhsach.iml" />
@@ -37,6 +38,10 @@
       <module fileurl="file://$PROJECT_DIR$/session_17_file_serialization/session_17_file_serialization.iml" filepath="$PROJECT_DIR$/session_17_file_serialization/session_17_file_serialization.iml" />
       <module fileurl="file://$PROJECT_DIR$/session_18_thread/session_18_thread.iml" filepath="$PROJECT_DIR$/session_18_thread/session_18_thread.iml" />
       <module fileurl="file://$PROJECT_DIR$/session_19_regex/session_19_regex.iml" filepath="$PROJECT_DIR$/session_19_regex/session_19_regex.iml" />
+      <module fileurl="file://$PROJECT_DIR$/session_20_solid/session_20_solid.iml" filepath="$PROJECT_DIR$/session_20_solid/session_20_solid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/session_21_design_pattern_creational/session_21_design_pattern_creational.iml" filepath="$PROJECT_DIR$/session_21_design_pattern_creational/session_21_design_pattern_creational.iml" />
+      <module fileurl="file://$PROJECT_DIR$/session_22_structural_dp/session_22_structural_dp.iml" filepath="$PROJECT_DIR$/session_22_structural_dp/session_22_structural_dp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/session_23_behavioral_dp/session_23_behavioral_dp.iml" filepath="$PROJECT_DIR$/session_23_behavioral_dp/session_23_behavioral_dp.iml" />
       <module fileurl="file://$PROJECT_DIR$/session_4_oop/session_3_OOP.iml" filepath="$PROJECT_DIR$/session_4_oop/session_3_OOP.iml" />
       <module fileurl="file://$PROJECT_DIR$/session_5_access_modifier/session_5_access_modifier.iml" filepath="$PROJECT_DIR$/session_5_access_modifier/session_5_access_modifier.iml" />
       <module fileurl="file://$PROJECT_DIR$/session_7_abstract/session_6_abstract.iml" filepath="$PROJECT_DIR$/session_7_abstract/session_6_abstract.iml" />

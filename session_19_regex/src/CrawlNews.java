@@ -20,10 +20,10 @@ public class CrawlNews {
             content = content.replaceAll("\\n+", "");
 
             // regex
-            Pattern pattern = Pattern.compile("has-child\">(.*?)</a>");
+            Pattern pattern = Pattern.compile("dt-text-black-mine\"(.*?)>(.*?)</a>");
             Matcher matcher = pattern.matcher(content);
             while (matcher.find()) {
-                System.out.println(matcher.group(1));
+                System.out.println(matcher.group(2));
             }
 
 

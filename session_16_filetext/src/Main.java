@@ -2,43 +2,42 @@ import java.io.*;
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) {
 
+    public static final int ADD_STUDENT = 1;
+    public static final int SHOW_LIST_STUDENT = 2;
+    public static final int DELETE_STUDENT = 3;
+    public static final int UPDATE_STUDENT = 4;
+    public static final int IMPORT_STUDENT = 5;
+    public static final int EXPORT_STUDENT = 6;
+    public static final int EXIT = 10;
+
+    public static void main(String[] args) {
         while (true) {
             try {
                 Scanner scanner = new Scanner(System.in);
-
-
-                System.out.println("----Enter choice number----");
-                System.out.println("1: Add student");
-                System.out.println("2: Show list students");
-                System.out.println("3: Delete students");
-                System.out.println("4: Update students");
-                System.out.println("5: Import students from file: ");
-                System.out.println("6: Export students to file: ");
-                System.out.println("10: Exit");
+                showMainMenu();
                 int choice = scanner.nextInt();
 
                 switch (choice) {
-                    case 1:
+                    case ADD_STUDENT:
                         StudentManager.addStudent();
                         break;
-                    case 2:
+                    case SHOW_LIST_STUDENT:
                         StudentManager.showListStudent();
                         break;
-                    case 3:
+                    case DELETE_STUDENT:
                         StudentManager.deleteStudent();
                         break;
-                    case 4:
+                    case UPDATE_STUDENT:
                         StudentManager.updateStudent();
                         break;
-                    case 5:
+                    case IMPORT_STUDENT:
                         StudentManager.importStudentFromFile();
                         break;
-                    case 6:
+                    case EXPORT_STUDENT:
                         StudentManager.exportStudentFromFile();
                         break;
-                    case 10:
+                    case EXIT:
                         StudentManager.exit();
                         break;
                     default:
@@ -51,5 +50,16 @@ public class Main {
                 System.out.println(e.getMessage());
             }
         }
+    }
+
+    private static void showMainMenu() {
+        System.out.println("----Enter choice number----");
+        System.out.println("1: Add student");
+        System.out.println("2: Show list students");
+        System.out.println("3: Delete students");
+        System.out.println("4: Update students");
+        System.out.println("5: Import students from file: ");
+        System.out.println("6: Export students to file: ");
+        System.out.println("10: Exit");
     }
 }

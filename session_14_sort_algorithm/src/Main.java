@@ -19,7 +19,6 @@ public class Main {
             for (int element : array) {
                 System.out.print(element + " ");
             }
-
         }
     }
 }
