@@ -1,13 +1,14 @@
-package Book;
+package ManagementSystem;
 
 import java.io.*;
 import java.util.*;
+import Objects.Book;
 
-public class Books {
+public class BooksManager {
     private static final String FILE_NAME = "Books.csv";
     private List<Book> books;
 
-    public Books() {
+    public BooksManager() {
         this.books = loadBooks();
     }
 

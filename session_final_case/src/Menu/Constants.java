@@ -1,4 +1,4 @@
-package Controller;
+package Menu;
 
 public interface Constants {
     int MAIN_MENU_STUDENT = 1;

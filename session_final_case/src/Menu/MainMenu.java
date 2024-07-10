@@ -1,14 +1,14 @@
-package Controller;
+package Menu;
 
 import java.util.Scanner;
 
-import Student.Student;
-import Student.Students;
+import Objects.Student;
+import ManagementSystem.StudentsManager;
 
 public class MainMenu implements Constants {
     public void displayMainMenu() {
         Scanner scanner = new Scanner(System.in);
-        Students students = new Students();
+        StudentsManager students = new StudentsManager();
 
         while (true) {
             System.out.println("Welcome to the Nation Library");

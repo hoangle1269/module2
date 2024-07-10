@@ -1,4 +1,4 @@
-package Student;
+package Objects;
 
 public class Student {
     private String id;

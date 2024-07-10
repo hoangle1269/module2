@@ -1,11 +1,11 @@
-package Controller;
+package Menu;
 
-import Book.Books;
-import Book.Book;
+import ManagementSystem.BooksManager;
+import Objects.Book;
 import java.util.Scanner;
 
 public class LibrarianMenu implements Constants {
-    private static Books books = new Books();
+    private static BooksManager books = new BooksManager();
 
     public static void display() {
         Scanner scanner = new Scanner(System.in);

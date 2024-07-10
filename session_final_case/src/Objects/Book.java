@@ -1,4 +1,4 @@
-package Book;
+package Objects;
 
 public class Book {
     private String ISBN;

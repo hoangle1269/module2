@@ -1,13 +1,15 @@
-package Student;
+package ManagementSystem;
+
+import Objects.Student;
 
 import java.io.*;
 import java.util.*;
 
-public class Students {
+public class StudentsManager {
     private static final String FILE_NAME = "C:\\Users\\hoang\\IdeaProjects\\Module2.1\\session_final_case\\students.csv";
     private List<Student> students;
 
-    public Students() {
+    public StudentsManager() {
         this.students = loadStudents();
     }
 

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Fan/Fan.iml" filepath="$PROJECT_DIR$/Fan/Fan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quadraticequation/quadraticequation.iml" filepath="$PROJECT_DIR$/quadraticequation/quadraticequation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/session_4_oop.iml" filepath="$PROJECT_DIR$/session_4_oop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/stopwatch/stopwatch.iml" filepath="$PROJECT_DIR$/stopwatch/stopwatch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/student/student.iml" filepath="$PROJECT_DIR$/student/student.iml" />
+    </modules>
+  </component>
+</project>

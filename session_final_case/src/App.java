@@ -1,5 +1,5 @@
-import Controller.MainMenu;
-import Book.BooksInitializer;
+import Menu.MainMenu;
+import ManagementSystem.BooksInitializer;
 
 public class App {
     public static void main(String[] args) {
