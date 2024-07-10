@@ -2,7 +2,7 @@ package Library;
 
 public interface AppInterface {
     int ADD_BOOK = 1;
-    int UPGRADE_BOOK_QTY = 2;
+    int UPDATE_BOOK_QTY = 2;
     int SEARCH_BOOK = 3;
     int SHOW_ALL_BOOKS = 4;
     int ADD_STUDENT = 5;
