@@ -18,25 +18,9 @@
       <change beforePath="$PROJECT_DIR$/../session_16_filetext/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../session_16_filetext/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../session_16_filetext/src/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/../session_16_filetext/src/Menu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../session_16_filetext/src/StudentManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../session_16_filetext/src/StudentManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session_4_oop/Fan/src/Fan.java" beforeDir="false" afterPath="$PROJECT_DIR$/../session_4_oop/Fan/src/Fan.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../session_4_oop/Fan/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../session_4_oop/Fan/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../session_8_clean_code/FizzBuzz/FizzBuzz" beforeDir="false" afterPath="$PROJECT_DIR$/../session_8_clean_code/FizzBuzz/FizzBuzz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Books.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Books.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Book/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Objects/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Book/Books.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ManagementSystem/BooksManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Book/BooksInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ManagementSystem/BooksInitializer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menu/Constants.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/LibrarianMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menu/LibrarianMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menu/MainMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/StudentMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Menu/StudentMenu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Student/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Objects/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Student/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Objects/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Student/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Objects/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Student/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Objects/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Student/Student.iml" beforeDir="false" afterPath="$PROJECT_DIR$/src/Objects/Student.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Student/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Objects/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Student/Students.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ManagementSystem/StudentsManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/students.csv" beforeDir="false" afterPath="$PROJECT_DIR$/students.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,6 +97,7 @@
       <workItem from="1720578956186" duration="2378000" />
       <workItem from="1720585222834" duration="34000" />
       <workItem from="1720595996377" duration="67000" />
+      <workItem from="1720623658626" duration="3961000" />
     </task>
     <servers />
   </component>
